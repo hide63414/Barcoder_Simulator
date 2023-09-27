@@ -55,7 +55,7 @@ void setup() {
   frameRate(frame_rate);
   minim = new Minim(this); 
 
-  img = loadImage("FanBorar_2_20180414.png");
+  img = loadImage("twinfan_800x600.png");
 
   prevMousePos = new PVector(mouseX, mouseY); // 初期値として現在のマウス座標を設定
   smoothMouseVector = new PVector(0, 0);
